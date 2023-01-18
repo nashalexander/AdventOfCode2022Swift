@@ -8,7 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		FA07C490293959B20034BC30 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C48F293959B20034BC30 /* main.swift */; };
+		FA0BB3B4295C0A86001048AA /* AdventOfCode2022MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3B3295C0A86001048AA /* AdventOfCode2022MacOSApp.swift */; };
+		FA0BB3B6295C0A86001048AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3B5295C0A86001048AA /* ContentView.swift */; };
+		FA0BB3B8295C0A87001048AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0BB3B7295C0A87001048AA /* Assets.xcassets */; };
+		FA0BB3BB295C0A87001048AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0BB3BA295C0A87001048AA /* Preview Assets.xcassets */; };
+		FA0BB3BD295C0A87001048AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3BC295C0A87001048AA /* Persistence.swift */; };
+		FA0BB3C0295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3BE295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodeld */; };
+		FA0BB3CB295C0A87001048AA /* AdventOfCode2022MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3CA295C0A87001048AA /* AdventOfCode2022MacOSTests.swift */; };
+		FA0BB3D5295C0A87001048AA /* AdventOfCode2022MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3D4295C0A87001048AA /* AdventOfCode2022MacOSUITests.swift */; };
+		FA0BB3D7295C0A87001048AA /* AdventOfCode2022MacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BB3D6295C0A87001048AA /* AdventOfCode2022MacOSUITestsLaunchTests.swift */; };
+		FA34E3E0293D472C005A24FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07C48F293959B20034BC30 /* main.swift */; };
+		FA34E3E6293D48AE005A24FF /* RuckSack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34E3E5293D48AE005A24FF /* RuckSack.swift */; };
+		FA34E3E7293D48AE005A24FF /* RuckSack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34E3E5293D48AE005A24FF /* RuckSack.swift */; };
+		FA4A573229400F3F006A5735 /* CampCleaniing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573129400F3F006A5735 /* CampCleaniing.swift */; };
+		FA4A573429400F5D006A5735 /* CampCleaningTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573329400F5D006A5735 /* CampCleaningTest.swift */; };
+		FA4A57352940110F006A5735 /* CampCleaniing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573129400F3F006A5735 /* CampCleaniing.swift */; };
+		FA4A573729401E72006A5735 /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573629401E72006A5735 /* RockPaperScissors.swift */; };
+		FA4A573829401E72006A5735 /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573629401E72006A5735 /* RockPaperScissors.swift */; };
+		FA4A573A29401EE4006A5735 /* CalorieTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573929401EE4006A5735 /* CalorieTracker.swift */; };
+		FA4A573B29401EE4006A5735 /* CalorieTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573929401EE4006A5735 /* CalorieTracker.swift */; };
+		FA4A573D29402090006A5735 /* TestFiles in Resources */ = {isa = PBXBuildFile; fileRef = FA60E6A0293B241400BC060A /* TestFiles */; };
+		FA4A573F29402569006A5735 /* CargoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573E29402569006A5735 /* CargoStacks.swift */; };
+		FA4A574029402569006A5735 /* CargoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573E29402569006A5735 /* CargoStacks.swift */; };
+		FA4A5742294036F8006A5735 /* CargoStacksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A5741294036F8006A5735 /* CargoStacksTest.swift */; };
+		FA60E69C293B130900BC060A /* AdventOfCode2022Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60E69B293B130900BC060A /* AdventOfCode2022Test.swift */; };
+		FA93368A2973CB9700F8EA4C /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9336892973CB9700F8EA4C /* Access.swift */; };
+		FA93368B2973CB9700F8EA4C /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9336892973CB9700F8EA4C /* Access.swift */; };
+		FA93368C2973CB9700F8EA4C /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9336892973CB9700F8EA4C /* Access.swift */; };
+		FA93368E29747D7200F8EA4C /* RuckSack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34E3E5293D48AE005A24FF /* RuckSack.swift */; };
+		FA93368F29747D7200F8EA4C /* CampCleaniing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573129400F3F006A5735 /* CampCleaniing.swift */; };
+		FA93369029747D7200F8EA4C /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573629401E72006A5735 /* RockPaperScissors.swift */; };
+		FA93369129747D7200F8EA4C /* CalorieTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573929401EE4006A5735 /* CalorieTracker.swift */; };
+		FA93369229747D7200F8EA4C /* CargoStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A573E29402569006A5735 /* CargoStacks.swift */; };
+		FA93369329747D7200F8EA4C /* SignalTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C31B294CD17F002D69A0 /* SignalTransmitter.swift */; };
+		FA93369429747D7200F8EA4C /* FileSystemParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C320294CDCCD002D69A0 /* FileSystemParser.swift */; };
+		FAD9C31C294CD17F002D69A0 /* SignalTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C31B294CD17F002D69A0 /* SignalTransmitter.swift */; };
+		FAD9C31D294CD17F002D69A0 /* SignalTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C31B294CD17F002D69A0 /* SignalTransmitter.swift */; };
+		FAD9C31F294CD5E9002D69A0 /* SignalTransmitterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C31E294CD5E9002D69A0 /* SignalTransmitterTest.swift */; };
+		FAD9C321294CDCCD002D69A0 /* FileSystemParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C320294CDCCD002D69A0 /* FileSystemParser.swift */; };
+		FAD9C322294CDCCD002D69A0 /* FileSystemParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C320294CDCCD002D69A0 /* FileSystemParser.swift */; };
+		FAD9C324294D1C5D002D69A0 /* FileSystemParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9C323294D1C5D002D69A0 /* FileSystemParserTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0BB3C7295C0A87001048AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA07C484293959B20034BC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0BB3B0295C0A86001048AA;
+			remoteInfo = AdventOfCode2022MacOS;
+		};
+		FA0BB3D1295C0A87001048AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA07C484293959B20034BC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0BB3B0295C0A86001048AA;
+			remoteInfo = AdventOfCode2022MacOS;
+		};
+		FA34E3E3293D478D005A24FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA07C484293959B20034BC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA07C48B293959B20034BC30;
+			remoteInfo = AdventOfCode2022;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FA07C48A293959B20034BC30 /* CopyFiles */ = {
@@ -25,10 +89,66 @@
 /* Begin PBXFileReference section */
 		FA07C48C293959B20034BC30 /* AdventOfCode2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2022; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA07C48F293959B20034BC30 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA0BB3B1295C0A86001048AA /* AdventOfCode2022MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2022MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0BB3B3295C0A86001048AA /* AdventOfCode2022MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2022MacOSApp.swift; sourceTree = "<group>"; };
+		FA0BB3B5295C0A86001048AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0BB3B7295C0A87001048AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0BB3BA295C0A87001048AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0BB3BC295C0A87001048AA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA0BB3BF295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdventOfCode2022MacOS.xcdatamodel; sourceTree = "<group>"; };
+		FA0BB3C1295C0A87001048AA /* AdventOfCode2022MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventOfCode2022MacOS.entitlements; sourceTree = "<group>"; };
+		FA0BB3C6295C0A87001048AA /* AdventOfCode2022MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2022MacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0BB3CA295C0A87001048AA /* AdventOfCode2022MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2022MacOSTests.swift; sourceTree = "<group>"; };
+		FA0BB3D0295C0A87001048AA /* AdventOfCode2022MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2022MacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0BB3D4295C0A87001048AA /* AdventOfCode2022MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2022MacOSUITests.swift; sourceTree = "<group>"; };
+		FA0BB3D6295C0A87001048AA /* AdventOfCode2022MacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2022MacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA34E3E5293D48AE005A24FF /* RuckSack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuckSack.swift; sourceTree = "<group>"; };
+		FA4A573129400F3F006A5735 /* CampCleaniing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampCleaniing.swift; sourceTree = "<group>"; };
+		FA4A573329400F5D006A5735 /* CampCleaningTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampCleaningTest.swift; sourceTree = "<group>"; };
+		FA4A573629401E72006A5735 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		FA4A573929401EE4006A5735 /* CalorieTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTracker.swift; sourceTree = "<group>"; };
+		FA4A573E29402569006A5735 /* CargoStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoStacks.swift; sourceTree = "<group>"; };
+		FA4A5741294036F8006A5735 /* CargoStacksTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoStacksTest.swift; sourceTree = "<group>"; };
+		FA60E699293B130900BC060A /* AdventOfCode2022Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2022Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA60E69B293B130900BC060A /* AdventOfCode2022Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2022Test.swift; sourceTree = "<group>"; };
+		FA60E6A0293B241400BC060A /* TestFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestFiles; sourceTree = "<group>"; };
+		FA9336892973CB9700F8EA4C /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		FAD9C31B294CD17F002D69A0 /* SignalTransmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTransmitter.swift; sourceTree = "<group>"; };
+		FAD9C31E294CD5E9002D69A0 /* SignalTransmitterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTransmitterTest.swift; sourceTree = "<group>"; };
+		FAD9C320294CDCCD002D69A0 /* FileSystemParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemParser.swift; sourceTree = "<group>"; };
+		FAD9C323294D1C5D002D69A0 /* FileSystemParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemParserTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA07C489293959B20034BC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3AE295C0A86001048AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3C3295C0A87001048AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3CD295C0A87001048AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60E696293B130900BC060A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +161,12 @@
 		FA07C483293959B20034BC30 = {
 			isa = PBXGroup;
 			children = (
+				FA60E6A0293B241400BC060A /* TestFiles */,
 				FA07C48E293959B20034BC30 /* AdventOfCode2022 */,
+				FA60E69A293B130900BC060A /* AdventOfCode2022Test */,
+				FA0BB3B2295C0A86001048AA /* AdventOfCode2022MacOS */,
+				FA0BB3C9295C0A87001048AA /* AdventOfCode2022MacOSTests */,
+				FA0BB3D3295C0A87001048AA /* AdventOfCode2022MacOSUITests */,
 				FA07C48D293959B20034BC30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +175,10 @@
 			isa = PBXGroup;
 			children = (
 				FA07C48C293959B20034BC30 /* AdventOfCode2022 */,
+				FA60E699293B130900BC060A /* AdventOfCode2022Test.xctest */,
+				FA0BB3B1295C0A86001048AA /* AdventOfCode2022MacOS.app */,
+				FA0BB3C6295C0A87001048AA /* AdventOfCode2022MacOSTests.xctest */,
+				FA0BB3D0295C0A87001048AA /* AdventOfCode2022MacOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +187,67 @@
 			isa = PBXGroup;
 			children = (
 				FA07C48F293959B20034BC30 /* main.swift */,
+				FA34E3E5293D48AE005A24FF /* RuckSack.swift */,
+				FA4A573129400F3F006A5735 /* CampCleaniing.swift */,
+				FA4A573629401E72006A5735 /* RockPaperScissors.swift */,
+				FA4A573929401EE4006A5735 /* CalorieTracker.swift */,
+				FA4A573E29402569006A5735 /* CargoStacks.swift */,
+				FAD9C31B294CD17F002D69A0 /* SignalTransmitter.swift */,
+				FAD9C320294CDCCD002D69A0 /* FileSystemParser.swift */,
+				FA9336892973CB9700F8EA4C /* Access.swift */,
 			);
 			path = AdventOfCode2022;
+			sourceTree = "<group>";
+		};
+		FA0BB3B2295C0A86001048AA /* AdventOfCode2022MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BB3B3295C0A86001048AA /* AdventOfCode2022MacOSApp.swift */,
+				FA0BB3B5295C0A86001048AA /* ContentView.swift */,
+				FA0BB3B7295C0A87001048AA /* Assets.xcassets */,
+				FA0BB3BC295C0A87001048AA /* Persistence.swift */,
+				FA0BB3C1295C0A87001048AA /* AdventOfCode2022MacOS.entitlements */,
+				FA0BB3BE295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodeld */,
+				FA0BB3B9295C0A87001048AA /* Preview Content */,
+			);
+			path = AdventOfCode2022MacOS;
+			sourceTree = "<group>";
+		};
+		FA0BB3B9295C0A87001048AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BB3BA295C0A87001048AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0BB3C9295C0A87001048AA /* AdventOfCode2022MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BB3CA295C0A87001048AA /* AdventOfCode2022MacOSTests.swift */,
+			);
+			path = AdventOfCode2022MacOSTests;
+			sourceTree = "<group>";
+		};
+		FA0BB3D3295C0A87001048AA /* AdventOfCode2022MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BB3D4295C0A87001048AA /* AdventOfCode2022MacOSUITests.swift */,
+				FA0BB3D6295C0A87001048AA /* AdventOfCode2022MacOSUITestsLaunchTests.swift */,
+			);
+			path = AdventOfCode2022MacOSUITests;
+			sourceTree = "<group>";
+		};
+		FA60E69A293B130900BC060A /* AdventOfCode2022Test */ = {
+			isa = PBXGroup;
+			children = (
+				FA60E69B293B130900BC060A /* AdventOfCode2022Test.swift */,
+				FA4A573329400F5D006A5735 /* CampCleaningTest.swift */,
+				FA4A5741294036F8006A5735 /* CargoStacksTest.swift */,
+				FAD9C31E294CD5E9002D69A0 /* SignalTransmitterTest.swift */,
+				FAD9C323294D1C5D002D69A0 /* FileSystemParserTest.swift */,
+			);
+			path = AdventOfCode2022Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +270,77 @@
 			productReference = FA07C48C293959B20034BC30 /* AdventOfCode2022 */;
 			productType = "com.apple.product-type.tool";
 		};
+		FA0BB3B0295C0A86001048AA /* AdventOfCode2022MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0BB3DE295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOS" */;
+			buildPhases = (
+				FA0BB3AD295C0A86001048AA /* Sources */,
+				FA0BB3AE295C0A86001048AA /* Frameworks */,
+				FA0BB3AF295C0A86001048AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventOfCode2022MacOS;
+			productName = AdventOfCode2022MacOS;
+			productReference = FA0BB3B1295C0A86001048AA /* AdventOfCode2022MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0BB3C5295C0A87001048AA /* AdventOfCode2022MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0BB3DF295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOSTests" */;
+			buildPhases = (
+				FA0BB3C2295C0A87001048AA /* Sources */,
+				FA0BB3C3295C0A87001048AA /* Frameworks */,
+				FA0BB3C4295C0A87001048AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0BB3C8295C0A87001048AA /* PBXTargetDependency */,
+			);
+			name = AdventOfCode2022MacOSTests;
+			productName = AdventOfCode2022MacOSTests;
+			productReference = FA0BB3C6295C0A87001048AA /* AdventOfCode2022MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0BB3CF295C0A87001048AA /* AdventOfCode2022MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0BB3E0295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOSUITests" */;
+			buildPhases = (
+				FA0BB3CC295C0A87001048AA /* Sources */,
+				FA0BB3CD295C0A87001048AA /* Frameworks */,
+				FA0BB3CE295C0A87001048AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0BB3D2295C0A87001048AA /* PBXTargetDependency */,
+			);
+			name = AdventOfCode2022MacOSUITests;
+			productName = AdventOfCode2022MacOSUITests;
+			productReference = FA0BB3D0295C0A87001048AA /* AdventOfCode2022MacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FA60E698293B130900BC060A /* AdventOfCode2022Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA60E69F293B130900BC060A /* Build configuration list for PBXNativeTarget "AdventOfCode2022Test" */;
+			buildPhases = (
+				FA60E695293B130900BC060A /* Sources */,
+				FA60E696293B130900BC060A /* Frameworks */,
+				FA60E697293B130900BC060A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA34E3E4293D478D005A24FF /* PBXTargetDependency */,
+			);
+			name = AdventOfCode2022Test;
+			productName = AdventOfCode2022Test;
+			productReference = FA60E699293B130900BC060A /* AdventOfCode2022Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,9 +349,23 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					FA07C48B293959B20034BC30 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FA0BB3B0295C0A86001048AA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FA0BB3C5295C0A87001048AA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA0BB3B0295C0A86001048AA;
+					};
+					FA0BB3CF295C0A87001048AA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA0BB3B0295C0A86001048AA;
+					};
+					FA60E698293B130900BC060A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -111,20 +384,141 @@
 			projectRoot = "";
 			targets = (
 				FA07C48B293959B20034BC30 /* AdventOfCode2022 */,
+				FA60E698293B130900BC060A /* AdventOfCode2022Test */,
+				FA0BB3B0295C0A86001048AA /* AdventOfCode2022MacOS */,
+				FA0BB3C5295C0A87001048AA /* AdventOfCode2022MacOSTests */,
+				FA0BB3CF295C0A87001048AA /* AdventOfCode2022MacOSUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0BB3AF295C0A86001048AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BB3BB295C0A87001048AA /* Preview Assets.xcassets in Resources */,
+				FA0BB3B8295C0A87001048AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3C4295C0A87001048AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3CE295C0A87001048AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60E697293B130900BC060A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4A573D29402090006A5735 /* TestFiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA07C488293959B20034BC30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4A573229400F3F006A5735 /* CampCleaniing.swift in Sources */,
+				FA34E3E6293D48AE005A24FF /* RuckSack.swift in Sources */,
+				FA4A573729401E72006A5735 /* RockPaperScissors.swift in Sources */,
+				FAD9C321294CDCCD002D69A0 /* FileSystemParser.swift in Sources */,
+				FA4A573F29402569006A5735 /* CargoStacks.swift in Sources */,
+				FA4A573A29401EE4006A5735 /* CalorieTracker.swift in Sources */,
+				FAD9C31C294CD17F002D69A0 /* SignalTransmitter.swift in Sources */,
+				FA93368A2973CB9700F8EA4C /* Access.swift in Sources */,
 				FA07C490293959B20034BC30 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA0BB3AD295C0A86001048AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA93368E29747D7200F8EA4C /* RuckSack.swift in Sources */,
+				FA93368F29747D7200F8EA4C /* CampCleaniing.swift in Sources */,
+				FA93369029747D7200F8EA4C /* RockPaperScissors.swift in Sources */,
+				FA93369129747D7200F8EA4C /* CalorieTracker.swift in Sources */,
+				FA93369229747D7200F8EA4C /* CargoStacks.swift in Sources */,
+				FA93369329747D7200F8EA4C /* SignalTransmitter.swift in Sources */,
+				FA93369429747D7200F8EA4C /* FileSystemParser.swift in Sources */,
+				FA0BB3BD295C0A87001048AA /* Persistence.swift in Sources */,
+				FA0BB3C0295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodeld in Sources */,
+				FA0BB3B6295C0A86001048AA /* ContentView.swift in Sources */,
+				FA93368C2973CB9700F8EA4C /* Access.swift in Sources */,
+				FA0BB3B4295C0A86001048AA /* AdventOfCode2022MacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3C2295C0A87001048AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BB3CB295C0A87001048AA /* AdventOfCode2022MacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0BB3CC295C0A87001048AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BB3D7295C0A87001048AA /* AdventOfCode2022MacOSUITestsLaunchTests.swift in Sources */,
+				FA0BB3D5295C0A87001048AA /* AdventOfCode2022MacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60E695293B130900BC060A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4A57352940110F006A5735 /* CampCleaniing.swift in Sources */,
+				FA4A574029402569006A5735 /* CargoStacks.swift in Sources */,
+				FA34E3E7293D48AE005A24FF /* RuckSack.swift in Sources */,
+				FAD9C322294CDCCD002D69A0 /* FileSystemParser.swift in Sources */,
+				FAD9C324294D1C5D002D69A0 /* FileSystemParserTest.swift in Sources */,
+				FA4A5742294036F8006A5735 /* CargoStacksTest.swift in Sources */,
+				FA4A573829401E72006A5735 /* RockPaperScissors.swift in Sources */,
+				FA93368B2973CB9700F8EA4C /* Access.swift in Sources */,
+				FAD9C31D294CD17F002D69A0 /* SignalTransmitter.swift in Sources */,
+				FA34E3E0293D472C005A24FF /* main.swift in Sources */,
+				FA60E69C293B130900BC060A /* AdventOfCode2022Test.swift in Sources */,
+				FA4A573B29401EE4006A5735 /* CalorieTracker.swift in Sources */,
+				FA4A573429400F5D006A5735 /* CampCleaningTest.swift in Sources */,
+				FAD9C31F294CD5E9002D69A0 /* SignalTransmitterTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0BB3C8295C0A87001048AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0BB3B0295C0A86001048AA /* AdventOfCode2022MacOS */;
+			targetProxy = FA0BB3C7295C0A87001048AA /* PBXContainerItemProxy */;
+		};
+		FA0BB3D2295C0A87001048AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0BB3B0295C0A86001048AA /* AdventOfCode2022MacOS */;
+			targetProxy = FA0BB3D1295C0A87001048AA /* PBXContainerItemProxy */;
+		};
+		FA34E3E4293D478D005A24FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA07C48B293959B20034BC30 /* AdventOfCode2022 */;
+			targetProxy = FA34E3E3293D478D005A24FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FA07C491293959B20034BC30 /* Debug */ = {
@@ -160,6 +554,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -220,6 +615,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -243,9 +639,14 @@
 		FA07C494293959B20034BC30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 64HD47DADC;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -254,10 +655,191 @@
 		FA07C495293959B20034BC30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 64HD47DADC;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA0BB3D8295C0A87001048AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdventOfCode2022MacOS/AdventOfCode2022MacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AdventOfCode2022MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA0BB3D9295C0A87001048AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdventOfCode2022MacOS/AdventOfCode2022MacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AdventOfCode2022MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA0BB3DA295C0A87001048AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode2022MacOS.app/Contents/MacOS/AdventOfCode2022MacOS";
+			};
+			name = Debug;
+		};
+		FA0BB3DB295C0A87001048AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode2022MacOS.app/Contents/MacOS/AdventOfCode2022MacOS";
+			};
+			name = Release;
+		};
+		FA0BB3DC295C0A87001048AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdventOfCode2022MacOS;
+			};
+			name = Debug;
+		};
+		FA0BB3DD295C0A87001048AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022MacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdventOfCode2022MacOS;
+			};
+			name = Release;
+		};
+		FA60E69D293B130900BC060A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA60E69E293B130900BC060A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 64HD47DADC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexnash.AdventOfCode2022Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -283,7 +865,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FA0BB3DE295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0BB3D8295C0A87001048AA /* Debug */,
+				FA0BB3D9295C0A87001048AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0BB3DF295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0BB3DA295C0A87001048AA /* Debug */,
+				FA0BB3DB295C0A87001048AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0BB3E0295C0A87001048AA /* Build configuration list for PBXNativeTarget "AdventOfCode2022MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0BB3DC295C0A87001048AA /* Debug */,
+				FA0BB3DD295C0A87001048AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA60E69F293B130900BC060A /* Build configuration list for PBXNativeTarget "AdventOfCode2022Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA60E69D293B130900BC060A /* Debug */,
+				FA60E69E293B130900BC060A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA0BB3BE295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA0BB3BF295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodel */,
+			);
+			currentVersion = FA0BB3BF295C0A87001048AA /* AdventOfCode2022MacOS.xcdatamodel */;
+			path = AdventOfCode2022MacOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA07C484293959B20034BC30 /* Project object */;
 }
